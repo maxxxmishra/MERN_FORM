@@ -1,0 +1,73 @@
+/* .container{
+    border : 5px solid green ;
+    min-height :100%;
+    
+} */
+
+
+/* #beechwala{
+    border : 5px solid yellow ; 
+} */
+
+.img-fluid {
+    max-width: 100%;
+    height: 30vh;
+}
+
+
+
+.wrapper{
+    padding:0 0 100px;
+    background-image: url(../images/bg.png);
+    background-repeat: no-repeat;
+    /* max-width: 100%; */
+    background-size: contain;
+    background-position: bottom;
+    /* position:fixed; */
+    background-attachment: fixed;
+    /* min-height: 100%; */
+    padding-bottom: 270px;
+    /* height:100vh;
+    display:flex;
+    align-items: center;
+    justify-content: center; */
+    
+}
+
+.wrapper input:focus
+{   
+    box-shadow:  none;
+}
+.wrapper input{
+    background-color:rgb(245, 243, 243);
+    padding:15px;
+}
+.wrapper .ssbtn:hover:focus,.wrapper .ssbtn1:hover:focus{
+    background-color:rgb(165, 163, 163);
+    box-shadow:  none;
+}
+.wrapper .ssbtn{
+    font-size: 14px;
+    font-weight: 600;
+    width: 80%;
+    
+}
+.wrapper .ssbtn img{
+    max-width: 8%;
+}
+
+.box input{
+    width:12%;
+    height:12%;
+    /* font-weight: 100; */
+    border:none;
+}
+
+@media(max-width: 768px){
+    .wrapper{
+        /* background-attachment: scroll; */
+    }
+}
+
+
+

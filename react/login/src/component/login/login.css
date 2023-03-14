@@ -1,0 +1,21 @@
+.registerlink{
+    cursor: pointer;
+}
+
+.logoimg{
+    height:20vh ;
+}
+.footer{
+    width:100%;
+    text-align:center;
+    padding:30px 0;
+}
+.icon{
+    color:red;
+    margin :0 3px;
+    cursor:pointer;
+    padding:0px 0;
+}
+.heart i{
+    color:red;
+}
